@@ -1,0 +1,6 @@
+#!/bin/sh
+export SHARED_HOME=/cray/css/users/uvaretto
+export PATH=/cray/css/users/uvaretto/build/tiger/local/bin:$PATH
+export LD_LIBRARY_PATH=/cray/css/users/uvaretto/build/tiger/local/lib:$LD_LIBRARY_PATH
+ln -sf $SHARED_HOME/.emacs.d $HOME/.emacs.d
+
